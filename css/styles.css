@@ -115,6 +115,32 @@ img {
   border-color: #4d5ae5;
 }
 
+.checkbox-container {
+  margin-bottom: 24px;
+}
+
+.label-class-privacy {
+  font-size: 12px;
+  display: block;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--light-slate);
+}
+
+.i-accept-span-class {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: backround-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+
 .icons-svg {
   position: absolute;
   left: 16px;
