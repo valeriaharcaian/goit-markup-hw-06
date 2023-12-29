@@ -141,7 +141,7 @@ img {
   fill: transparent;
 }
 
-#myCheckbox:checked + .mySpan {
+.checkbox-class:checked + .span:i-accept-span-class {
   background-color: var(#404bbf);
   border: none;
   fill: #f4f4fd;
