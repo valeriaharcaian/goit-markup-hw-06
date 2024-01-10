@@ -143,6 +143,10 @@ img {
   fill: #f4f4fd;
 }
 
+.name:focus + .phone {
+  fill: #4d5ae5;
+}
+
 .icons-svg {
   position: absolute;
   left: 16px;
