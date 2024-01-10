@@ -137,7 +137,7 @@ img {
   fill: transparent;
 }
 
-.inp:checked + .privacy span:i-accept-span-class {
+.inp:checked + .privacy span:first-child {
   background-color: var(#404bbf);
   border: none;
   fill: #f4f4fd;
