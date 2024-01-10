@@ -143,6 +143,10 @@ img {
   fill: #f4f4fd;
 }
 
+.privacy-link {
+  color: var(--logo-blue-color);
+}
+
 .name:focus + .phone {
   fill: #4d5ae5;
 }
