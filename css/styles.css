@@ -140,7 +140,7 @@ img {
 .checkbox-class:checked + .label-class-privacy span:first-child {
   background-color: var(--brand-color-ocean);
   border: none;
-  fill: var(--light-slate);
+  fill: #f4f4fd;
 }
 
 .privacy-link {
