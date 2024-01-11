@@ -137,6 +137,12 @@ img {
   fill: transparent;
 }
 
+.checkbox-class:checked + .label-class-privacy span:first-child {
+  background-color: var(--brand-color-ocean);
+  border: none;
+  fill: var(--light-slate);
+}
+
 .privacy-link {
   color: var(--logo-blue-color);
 }
