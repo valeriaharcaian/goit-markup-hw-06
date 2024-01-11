@@ -768,9 +768,6 @@ img {
 
 .second-child-footer {
   display: flex;
-}
-
-.label-footer {
   gap: 24px;
 }
 
