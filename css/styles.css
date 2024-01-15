@@ -169,10 +169,13 @@ img {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icons-svg:focus {
   fill: #4d5ae5;
 }
 
-.div-intern-modal {
+.svg-icon .div-intern-modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -667,6 +670,12 @@ img {
 
 .svg-icon {
   fill: currentColor;
+}
+
+.client-link:hover .svg-icon,
+.client-link:focus .svg-icon,
+.client-link:active {
+  fill: var(--brand-color-ocean);
 }
 
 /*footer section*/
