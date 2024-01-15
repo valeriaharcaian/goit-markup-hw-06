@@ -710,6 +710,10 @@ img {
 
 .svg-icon {
   fill: currentColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px 32px;
 }
 
 .client-link:hover .svg-icon,
