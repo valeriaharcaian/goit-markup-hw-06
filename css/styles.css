@@ -53,6 +53,8 @@ img {
   letter-spacing: 0.02em;
   color: var(--logo-titles-color);
   margin-bottom: 16px;
+  font-family: Roboto;
+  font-style: normal;
 }
 
 .modal-div-form {
@@ -109,6 +111,10 @@ img {
 
 .textarea-modal:focus {
   border-color: #4d5ae5;
+}
+
+.textarea-modal::placeholder {
+  color: #8e8f99;
 }
 
 .checkbox-container {
@@ -172,6 +178,9 @@ img {
 }
 
 .icons-svg:focus {
+  fill: #4d5ae5;
+}
+.input-class:focus + .icons-svg {
   fill: #4d5ae5;
 }
 
@@ -807,7 +816,7 @@ img {
 .subscribe-button {
   min-width: 165px;
   height: 40px;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   font-family: "Roboto", sans-serif;
@@ -822,8 +831,14 @@ img {
   border-radius: 4px;
 }
 
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background-color: #404bbf;
+}
+
 .svg-subscribe {
   margin-left: 16px;
+  fill: #fff;
 }
 
 .container-form {
