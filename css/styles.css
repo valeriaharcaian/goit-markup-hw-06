@@ -264,8 +264,6 @@ img {
   text-decoration: none;
   display: inline-block;
   margin-bottom: 16px;
-  display: block;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link:hover .img-div-pharagraph {
@@ -303,6 +301,22 @@ img {
   column-gap: 24px;
   row-gap: 48px;
   padding: 0;
+}
+
+.portfolio-shadow {
+  display: block;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-shadow:hover,
+.portfolio-shadow:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-shadow:hover .img-div-pharagraph,
+.portfolio-shadow:focus .img-div-pharagraph {
+  transform: translateY(0%);
 }
 
 .header-box-shadow {
