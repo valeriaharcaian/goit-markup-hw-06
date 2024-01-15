@@ -361,10 +361,12 @@ img {
   transition: color 250ms cubic cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.list-link:hover {
+.list-link:hover,
+.list-link:focus {
   color: #404bbf;
 }
-.list-link:focus {
+
+.list-link:active {
   color: #404bbf;
 }
 
